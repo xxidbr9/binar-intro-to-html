@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint:commit": "commitlint -e $GIT_PARAMS",
+    "lint:commit": "npx --no -- commitlint --edit $1",
     "lint:html": "htmlhint **/*.html",
     "lint:css": "stylelint '**/*.css'",
     "lint": "npm run lint:commit && npm run lint:html && npm run lint:css"
