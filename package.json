@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint": "npm run lint:commit && npm run lint:html && npm run lint:css",
+    "lint": "npm run lint:html && npm run lint:css",
     "lint:staged": "lint-staged",
     "lint:css": "stylelint **/*.css --fix",
     "lint:html": "htmlhint **/*.html",
-    "lint:commit": "npx --no -- commitlint --edit \"$1\"",
-    "format:css": "prettier --write '**/*.css'",
-    "format:html": "prettier --write '**/*.html'"
+    "format:css": "prettier --write **/*.css",
+    "format:html": "prettier --write **/*.html"
   },
   "lint-staged": {
     "*.css": [
