@@ -1,0 +1,41 @@
+{
+  "name": "binar-intro-to-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "lint:commit": "commitlint -e $GIT_PARAMS",
+    "lint:html": "htmlhint **/*.html",
+    "lint": "npm run lint:commit && npm run lint:html"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "npm run lint:commit",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.html": [
+      "npm run lint:html",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxidbr9/binar-intro-to-html.git"
+  },
+  "author": "Barnando Akbarto Hidayatullah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxidbr9/binar-intro-to-html/issues"
+  },
+  "homepage": "https://github.com/xxidbr9/binar-intro-to-html#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "htmlhint": "^1.1.4",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.2.2"
+  }
+}
