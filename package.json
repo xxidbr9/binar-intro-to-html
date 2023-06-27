@@ -7,7 +7,8 @@
     "prepare": "husky install",
     "lint:commit": "commitlint -e $GIT_PARAMS",
     "lint:html": "htmlhint **/*.html",
-    "lint": "npm run lint:commit && npm run lint:html"
+    "lint:css": "stylelint '**/*.css'",
+    "lint": "npm run lint:commit && npm run lint:html && npm run lint:css"
   },
   "husky": {
     "hooks": {
@@ -19,7 +20,10 @@
     "*.html": [
       "npm run lint:html",
       "git add"
-    ]
+    ],
+    "lint-staged": {
+      "*.css": "npm run lint:css"
+    }
   },
   "repository": {
     "type": "git",
@@ -36,6 +40,8 @@
     "@commitlint/config-conventional": "^17.6.6",
     "htmlhint": "^1.1.4",
     "husky": "^8.0.0",
-    "lint-staged": "^13.2.2"
+    "lint-staged": "^13.2.2",
+    "stylelint": "^15.9.0",
+    "stylelint-config-standard": "^33.0.0"
   }
 }
