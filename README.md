@@ -20,7 +20,7 @@ di repo ini, temen" semua akan belajar bagaimana cara berkolaborasi di project H
 
 1. Untuk kalian yang sudah paham bisa lanjut buat bikin `pull request` dari `branch` yang sudah kalian buat.
 
-1. Setiap `PR` atau `pull request` harus disertai Screen Shoot kalian dengan design yang sudah kalian buat
+1. Setiap `PR` atau `pull request` harus disertai Screen Shoot kalian dengan design yang sudah kalian buat, disertai informasi yang lengkap(termasuk issue number), contoh bisa lihat disini
 
 
 ### PERSYARATAN
