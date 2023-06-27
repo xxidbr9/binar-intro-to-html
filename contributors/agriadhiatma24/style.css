@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 :root {
   --bg: #f2f2f2;
   --font-mid: rgb(255 255 255 / 40%);
@@ -127,3 +128,40 @@ body {
   line-height: 24px;
   color: #6f6f6f;
 }
+
+/* COUNTER ROW */
+.counter-row {
+  display: flex;
+  padding: 24px 16px;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.counter-row .column-post,
+.column-follower,
+.column-following {
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: 1 0 0;
+}
+
+.counter-row p {
+  color: #6f6f6f;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.counter-row h4 {
+  color: #0f0f0f;
+  margin-top: 4px;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* stylelint-enable no-descending-specificity */
