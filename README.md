@@ -10,13 +10,17 @@ di repo ini, temen" semua akan belajar bagaimana cara berkolaborasi di project H
 
 1. Buat `branch` kalian sendiri dengan mengambil dari `branch master`.
 
+1. Pilih salah satu dari Issue yang sudah di list [disini](https://github.com/xxidbr9/binar-intro-to-html/issues)
+
 1. Setelah itu, kalian wajib jalankan perintah `npm i` di terminal kalian
 
 1. Dan setelah itu kalian bisa mulai buat folder berdasarkan username github kalian contoh `/contributors/xxidbr9` di folder `./contributors`, dan di isi dengan file `index.html` sebagai project html kalian, jangan lupa tambah link menuju folder di file `README.md` ini!!.
 
 1. Kalian bisa lihat semua design di sini [LINK FIGMA](<https://www.figma.com/file/SG36PkOJmYIGpsr8mTsWZ1/Mobile-Templates-(Kampus-Merdeka)?type=design&node-id=0%3A344&mode=design&t=n1xd2OptGOKNULZr-1>)
 
-1. Kalian wajib menggunakan screen mobile, bisa pakai yang sudah ada di chrome, atau untuk lebih presisi bisa pakai screen `iPhone 12` di chrome dev tools
+1. Pastikan hilangkan status bar atas dan bar bawah dan Ganti gambar placeholder dengan gambar asli apapun.
+
+1. Kalian wajib menggunakan screen mobile, bisa pakai yang sudah ada di chrome, atau untuk lebih presisi bisa pakai screen `iPhone 12` di chrome dev tools ataupun bisa memakai extension VSCode [Mobile View](https://marketplace.visualstudio.com/items?itemName=cirlorm.mobileview)
 
 1. Untuk kalian yang sudah paham bisa lanjut buat bikin `pull request` dari `branch` yang sudah kalian buat.
 
@@ -88,10 +92,10 @@ fix: remove unused #25
 ```
 
 
-### BIODATA KONTRIBUTOR
+### LIST KONTRIBUTOR
 
 <!-- Tambah nama lengkap kalian dan link ke file yang kalian buat  -->
-<!-- [nama_lengkap_kalian](./contributors/<username>.md) -->
+<!-- [nama_lengkap_kalian](./contributors/<username>) -->
 
 - [Barnando Akbarto Hidayatullah](./contributors/xxidbr9)
 
