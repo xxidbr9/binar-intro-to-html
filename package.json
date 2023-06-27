@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "lint:commit": "npx --no -- commitlint --edit $1",
+    "lint": "npm run lint:commit && npm run lint:html && npm run lint:css",
+    "lint:css": "stylelint **/*.css --fix",
     "lint:html": "htmlhint **/*.html",
-    "lint:css": "stylelint '**/*.css'",
-    "lint": "npm run lint:commit && npm run lint:html && npm run lint:css"
+    "lint:commit": "npx --no -- commitlint --edit $1",
+    "format:css": "prettier --write '**/*.css'",
+    "format:html": "prettier --write '**/*.html'"
   },
   "husky": {
     "hooks": {
@@ -17,13 +19,16 @@
     }
   },
   "lint-staged": {
-    "*.html": [
-      "npm run lint:html",
+    "*.css": [
+      "npm run lint:css",
+      "npm run format:css",
       "git add"
     ],
-    "lint-staged": {
-      "*.css": "npm run lint:css"
-    }
+    "*.html": [
+      "npm run lint:html",
+      "npm run format:html",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
@@ -41,6 +46,7 @@
     "htmlhint": "^1.1.4",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
     "stylelint": "^15.9.0",
     "stylelint-config-standard": "^33.0.0"
   }
