@@ -27,7 +27,7 @@ di repo ini, temen" semua akan belajar bagaimana cara berkolaborasi di project H
 
 1. Untuk kalian yang sudah paham bisa lanjut buat bikin `pull request` dari `branch` yang sudah kalian buat.
 
-1. Setiap `PR` atau `pull request` harus disertai Screen Shoot kalian dengan design yang sudah kalian buat, disertai informasi yang lengkap(termasuk issue number), contoh bisa lihat disini
+1. Setiap `PR` atau `pull request` harus disertai Screen Shoot kalian dengan design yang sudah kalian buat, disertai informasi yang lengkap(termasuk issue number), contoh bisa lihat disini [(Link PR)](https://github.com/xxidbr9/binar-intro-to-html/pull/41)
 
 
 ### PERSYARATAN
@@ -59,7 +59,7 @@ git commit -m "feat: add navbar to html" # menggunakan prefix feat dan informasi
 git commit -m "feat: allow provided config object to extend other configs"
 ```
 
-```shell
+```bash
 feat: allow provided config object to extend other configs
 ```
 
@@ -70,7 +70,7 @@ git commit -m "feat: allow provided config object to extend other configs" \
 -m "BREAKING CHANGE: `extends` key in config file is now used for extending other config files"
 ```
 
-```shell
+```bash
 feat: allow provided config object to extend other configs
 BREAKING CHANGE: `extends` key in config file is now used for extending other config files
 ```
@@ -81,7 +81,7 @@ Menambah commit dengan (scope) / jangkauan pekerjaan
 git commit -m "feat(xxidbr9): added xxidbr9 pages"
 ```
 
-```shell
+```bash
 feat(xxidbr9): added xxidbr9 pages
 ```
 
@@ -90,7 +90,7 @@ ini akan membuat commit bisa membuat link dengan issue ataupun pull request yang
 ```bash
 git commit -m "fix: remove unused #25"
 ```
-```shell
+```bash
 fix: remove unused #25
 ```
 
