@@ -1,0 +1,80 @@
+*:root {
+  --blur-dark: #333c;
+  --font-light: #0f0f0f;
+  --font-light-70: #ffffffb2;
+  --font-white-50: #0f0f0f;
+  --font-white: #fff;
+  --mono-01: #1a1a1a;
+  --mono-02: #333;
+  --mono-10: #fff;
+}
+
+html,
+body {
+  background-color: var(--mono-01);
+  margin: 0;
+  padding: 0;
+  font-family: 'Gothic A1', Arial, sans-serif;
+  color: #fff;
+}
+
+.kotak {
+  padding: 20px; /* dalam border */
+  margin: 5px; /* luar dari border */
+  border: 10px solid red;
+  background-color: yellow;
+}
+
+.kotak-luar {
+  background-color: aqua;
+}
+
+#status-bar {
+  height: 44px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  background: var(--blur-dark);
+  backdrop-filter: blur(12px);
+  position: fixed;
+}
+
+.large-title-bar {
+  display: flex;
+  height: 76px;
+  padding: 4px 8px 12px 16px;
+  align-items: center;
+  gap: 4px;
+  justify-content: space-between;
+  backdrop-filter: blur(12px);
+}
+
+.large-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.large-title > h1 {
+  color: var(--font-white);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.large-title > h5 {
+  color: var(--font-light-70);
+  font-size: 16px;
+  font-family: 'Gothic A1';
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.right-actions {
+  display: flex;
+  column-gap: 4px;
+}
