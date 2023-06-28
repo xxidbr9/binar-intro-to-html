@@ -127,6 +127,8 @@ h5 {
   flex-direction: column;
 }
 
+/* button */
+
 button,
 input[type='submit'],
 input[type='reset'] {
