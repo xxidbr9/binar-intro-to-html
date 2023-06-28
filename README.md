@@ -101,6 +101,7 @@ fix: remove unused #25
 <!-- [nama_lengkap_kalian](./contributors/<username>) -->
 
 - [Barnando Akbarto Hidayatullah](./contributors/xxidbr9)
+- [Rabian Ikwan](./contributors/rabianikwan)
 
 <!-- YANG DIBAWAH INI SAMPAI BAWAH JANGAN DI EDIT -->
 <!-- INI OTOMATIS GENERATE DARI BOT -->

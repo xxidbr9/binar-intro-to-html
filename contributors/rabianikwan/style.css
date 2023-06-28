@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*:root {
+  --dark-80: #333c;
+  --monochromatic-01: #1a1a1a;
+  --monochromatic-02: #333;
+  --monochromatic-08: #ccc;
+  --monochromatic-10: #fff;
+  --font-light-70: #ffffffb2;
+  --font-white-50: #0f0f0f;
+  --font-white: #fff;
+}
+
+body {
+  background-color: var(--monochromatic-01);
+  margin: 0;
+  padding: 0;
+  font-family: 'Gothic A1', Arial, sans-serif;
+  color: var(--font-white);
+}
+
+/* other styles */
+.backdrop-blur-12 {
+  backdrop-filter: blur(12px);
+}
+
+.shadow-outter {
+  box-shadow: 0 0 24px 0 rgb(180 188 203 / 24%);
+}
+
+/* nav start here */
+nav {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  position: fixed;
+  background: var(--dark-80);
+}
+
+h1 {
+  font-size: 1.625rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.large-title-bar {
+  display: flex;
+  padding: 0.25rem 0.5rem 0.75rem 1rem;
+  align-items: center;
+  gap: 0.25rem;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.large-title-grp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.navbar-placeholder {
+  height: 4.5rem;
+  width: 100%;
+}
+
+/* nav ends */
+
+/* main section */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.box-shadow {
+  box-shadow: 0 1px 0 0 rgb(122 122 122 / 15%) inset;
+}
+
+.section-header {
+  display: flex;
+  padding: 0.75rem 1rem;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  justify-content: space-between;
+  height: 3rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.content-row {
+  display: flex;
+  padding: 0.75rem 1rem;
+  align-items: center;
+  gap: 0.5rem;
+  align-self: stretch;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* button */
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.btn {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-rounded {
+  border-radius: 100px;
+  background: var(--monochromatic-02);
+}
