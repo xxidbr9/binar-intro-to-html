@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark Theme 12</title>
+    <style>
+      @font-face {
+        font-family: gothic;
+        src: url(./assets/fonts/Gothic_A1/GothicA1-Regular.ttf);
+      }
+      * {
+        font-family: gothic;
+        margin: 0;
+        padding: 0;
+      }
+      .phone {
+        width: 375px;
+        background-color: #333333;
+        margin: 0 auto;
+      }
+      .p-20 {
+        padding: 20px;
+      }
+      .p-10 {
+        padding: 10px;
+      }
+      .app-bar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+      }
+      .app-bar ul li {
+        display: block;
+        flex: 0 auto;
+        list-style-type: none;
+      }
+      .body {
+        background-color: #1a1a1a;
+      }
+      .bottom-nav {
+        width: 100%;
+      }
+      h3 {
+        color: white;
+        margin: 0;
+      }
+      h5 {
+        color: darkgray;
+        margin: 5px 0 0 0;
+      }
+      .bottom-nav ul {
+        list-style-type: none;
+        margin: 0 20px;
+        padding: 10px 0;
+        overflow: hidden;
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+      }
+      .bottom-nav ul li {
+        display: block;
+        flex: 0 auto;
+        list-style-type: none;
+      }
+      .time {
+        background-color: #333333;
+        padding: 5px;
+        font-size: 12px;
+        color: white;
+        width: 30px;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+        border-radius: 5px;
+      }
+      .item-chat {
+        width: 70%;
+        color: white;
+        font-size: 13px;
+        background-color: #333333;
+        border-radius: 10px;
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="phone">
+      <div class="app-bar p-20">
+        <ul>
+          <li>
+            <div class="leading">
+              <h3>Page title</h3>
+              <h5>Subtitle</h5>
+            </div>
+          </li>
+          <li>
+            <div class="actions">
+              <img src="./assets/icons/search.svg" alt="Home" />
+              <img src="./assets/icons/menu.svg" alt="Home" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="body p-10">
+        <div class="time">9:30</div>
+        <div class="item-chat p-10">
+          <img
+            src="./assets/icons/empty.png"
+            width="100%"
+            style="border-radius: 10px"
+            alt="Empty"
+          />
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut
+          <p style="text-align: end; margin: 0">9:30</p>
+        </div>
+        <div class="item-chat p-10">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut
+          <p style="text-align: end; margin: 0">9:30</p>
+        </div>
+        <div class="time">9:30</div>
+      </div>
+      <div class="bottom-nav">
+        <ul>
+          <li><img src="./assets/icons/home.svg" alt="Home" /></li>
+          <li><img src="./assets/icons/heart.svg" alt="Heart" /></li>
+          <li><img src="./assets/icons/cart.svg" alt="Cart" /></li>
+          <li><img src="./assets/icons/search.svg" alt="Search" /></li>
+          <li><img src="./assets/icons/profile.svg" alt="Profile" /></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
