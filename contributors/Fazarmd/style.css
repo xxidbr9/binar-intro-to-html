@@ -1,7 +1,69 @@
 *,
+/* :root{
+    --blur-light : #FFFFFFCC;
+    --font-dark : #0F0F0F;
+    --font-dark-0 : #FFFFFF00;
+    --font-mid : #0F0F0F;
+    --font-mid-40 : #FFFFFF66;
+    --monochromatic-01 : #1A1A1A;
+    --monochromatic-08 : #CCCCCC;
+    --monochromatic-09 : #F2F2F2;
+    --monochromatic-10 : #FFFFFF;
+} */
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: 'Gothic A1', sans-serif;
+  background-color: var(--blur-light, #fffc);
+}
+
+#status-bar {
+  height: 44px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  background: var(--blur-light, #fffc);
+  backdrop-filter: blur(12px);
+  position: fixed;
+}
+
+.large-title-bar {
+  display: flex;
+  height: 76px;
+  padding: 4px 8px 12px 16px;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  justify-content: space-between;
+  backdrop-filter: blur(12px);
+}
+
+.large-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.large-title > h1 {
+  color: var(--font-dark, #0f0f0f);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.large-title > h5 {
+  color: var(--font-mid, #0f0f0f);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.right-action {
+  display: flex;
+  column-gap: 8px;
 }
