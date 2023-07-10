@@ -1,6 +1,9 @@
 # Hai semua 👋
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -29,7 +32,6 @@ di repo ini, temen" semua akan belajar bagaimana cara berkolaborasi di project H
 
 1. Setiap `PR` atau `pull request` harus disertai Screen Shoot kalian dengan design yang sudah kalian buat, disertai informasi yang lengkap(termasuk issue number), contoh bisa lihat disini [(Link PR)](https://github.com/xxidbr9/binar-intro-to-html/pull/41)
 
-
 ### PERSYARATAN
 
 Pesan commit harus rapi, dengan cara menambah beberapa prefix / kata khusus untuk di pakai di pesan commit, berikut beberapa list commit
@@ -46,11 +48,11 @@ Pesan commit harus rapi, dengan cara menambah beberapa prefix / kata khusus untu
 - ci : Commit yang mempengaruhi CICD
 - test : Penambahan testing code seperti, Unit-test, Intregation Test, User Test
 
-
 ##### Contoh penulisan
+
 ```bash
 git add . # Untuk menambah file sebelum di commit
-git commit -m "feat: add navbar to html" # menggunakan prefix feat dan informasi singkat setelahnya 
+git commit -m "feat: add navbar to html" # menggunakan prefix feat dan informasi singkat setelahnya
 ```
 
 ##### Commit message dengan description
@@ -64,7 +66,9 @@ feat: allow provided config object to extend other configs
 ```
 
 ##### Commit message dengan description dan body
+
 dengan menggunakan lebih dari 1 Pesan (-m)
+
 ```bash
 git commit -m "feat: allow provided config object to extend other configs" \
 -m "BREAKING CHANGE: `extends` key in config file is now used for extending other config files"
@@ -76,7 +80,9 @@ BREAKING CHANGE: `extends` key in config file is now used for extending other co
 ```
 
 ##### Commit message dengan scope
+
 Menambah commit dengan (scope) / jangkauan pekerjaan
+
 ```bash
 git commit -m "feat(xxidbr9): added xxidbr9 pages"
 ```
@@ -86,14 +92,16 @@ feat(xxidbr9): added xxidbr9 pages
 ```
 
 ##### Commit message dengan issue number.
+
 ini akan membuat commit bisa membuat link dengan issue ataupun pull request yang ada di github
+
 ```bash
 git commit -m "fix: remove unused #25"
 ```
+
 ```bash
 fix: remove unused #25
 ```
-
 
 ### LIST KONTRIBUTOR
 
@@ -101,6 +109,7 @@ fix: remove unused #25
 <!-- [nama_lengkap_kalian](./contributors/<username>) -->
 
 - [Barnando Akbarto Hidayatullah](./contributors/xxidbr9)
+- [Yudha Adhi Pangestu](./contributors/AccelUp)
 
 <!-- YANG DIBAWAH INI SAMPAI BAWAH JANGAN DI EDIT -->
 <!-- INI OTOMATIS GENERATE DARI BOT -->
@@ -108,6 +117,7 @@ fix: remove unused #25
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
