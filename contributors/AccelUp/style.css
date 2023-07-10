@@ -1,0 +1,39 @@
+/* Status Bar START */
+.status-bar {
+  display: flex;
+  width: 390px;
+  height: 44px;
+
+  /* padding: 12px 20.672px 12px 21px; */
+  justify-content: center;
+  align-items: center;
+  gap: 227.667px;
+  flex-shrink: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.status-bar a {
+  display: flex;
+  width: 54px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: black;
+  text-align: center;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+
+.status-bar img {
+  width: 66.661px;
+  height: 11.336px;
+  flex-shrink: 0;
+}
+
+/* Status Bar END */
