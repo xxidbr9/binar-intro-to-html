@@ -101,6 +101,7 @@ fix: remove unused #25
 <!-- [nama_lengkap_kalian](./contributors/<username>) -->
 
 - [Barnando Akbarto Hidayatullah](./contributors/xxidbr9)
+- [Sandra Marsella] (./contributors/san033)
 
 <!-- YANG DIBAWAH INI SAMPAI BAWAH JANGAN DI EDIT -->
 <!-- INI OTOMATIS GENERATE DARI BOT -->
@@ -115,6 +116,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tbody>
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="http://github.com/xxidbr9-archived"><img src="https://avatars.githubusercontent.com/u/51733515?v=4?s=100" width="100px;" alt="Barnando Akbarto Hidayatullah"/><br /><sub><b>Barnando Akbarto Hidayatullah</b></sub></a><br /><a href="https://github.com/xxidbr9/binar-intro-to-html/commits?author=xxidbr9" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/San033"><img src="https://avatars.githubusercontent.com/u/137187976?v=4?s=100" width="100px;" alt="Sandra Marsella"/><br /><sub><b>Barnando Akbarto Hidayatullah</b></sub></a><br /><a href="https://github.com/xxidbr9/binar-intro-to-html/commits?author=san033" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
